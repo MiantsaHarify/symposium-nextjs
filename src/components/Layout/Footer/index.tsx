@@ -125,6 +125,7 @@ const Footer: FC = () => {
                             <Link
                                 href="https://nextjs-templates.com/"
                                 className="hover:text-white"
+                                target="_blank"
                             >
                                 NextJs Templates
                             </Link>
@@ -134,6 +135,7 @@ const Footer: FC = () => {
                             <Link
                                 href="https://themewagon.com/"
                                 className="hover:text-white"
+                                target="_blank"
                             >
                                 ThemeWagon
                             </Link>
