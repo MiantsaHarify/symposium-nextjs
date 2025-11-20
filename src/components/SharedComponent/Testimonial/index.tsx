@@ -7,7 +7,7 @@ const Testimonial = () => {
             <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md">
                 <div>
                     <Image
-                        src="/symposium-nextjs/images/testimonial/vector-smart.png"
+                        src="/images/testimonial/vector-smart.png"
                         alt="logo"
                         width={150}
                         height={0}

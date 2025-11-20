@@ -41,7 +41,7 @@ const Hero = () => {
                                 className="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden"
                             >
                                 <span className="!flex !items-center gap-14">
-                                    <i className="bg-[url('/symposium-nextjs/images/hero/tickets.svg')] bg-no-repeat bg-contain w-6 h-6 inline-block"></i>
+                                    <i className="bg-[url('/images/hero/tickets.svg')] bg-no-repeat bg-contain w-6 h-6 inline-block"></i>
                                     Buy access pass
                                 </span>
                             </Link>
@@ -53,7 +53,7 @@ const Hero = () => {
                                 className="btn_outline btn-2 hover-outline-slide-down group"
                             >
                                 <span className="!flex !items-center gap-14">
-                                    <i className="bg-[url('/symposium-nextjs/images/hero/calander.svg')] bg-no-repeat bg-contain w-6 h-6 inline-block group-hover:bg-[url('/symposium-nextjs/images/hero/calander-hover-white.svg')]"></i>
+                                    <i className="bg-[url('/images/hero/calander.svg')] bg-no-repeat bg-contain w-6 h-6 inline-block group-hover:bg-[url('/images/hero/calander-hover-white.svg')]"></i>
                                     Add to calendar
                                 </span>
                             </Link>
@@ -67,7 +67,7 @@ const Hero = () => {
                     >
                         <div className="bg-ElectricAqua relative rounded-tl-166 rounded-br-166 w-full">
                             <Image
-                                src="/symposium-nextjs/images/hero/john.png"
+                                src="/images/hero/john.png"
                                 alt="hero"
                                 width={0}
                                 height={0}
@@ -85,7 +85,7 @@ const Hero = () => {
                         </div>
                         <div className="bg-primary relative rounded-tr-166 rounded-bl-166 w-full mt-32">
                             <Image
-                                src="/symposium-nextjs/images/hero/maria.png"
+                                src="/images/hero/maria.png"
                                 alt="hero"
                                 width={0}
                                 height={0}

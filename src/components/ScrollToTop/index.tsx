@@ -34,7 +34,7 @@ export default function ScrollToTop() {
             onClick={scrollToTop}
             aria-hidden={!isVisible} // Optional: for accessibility
         >
-            <div className="before:content-[''] before:absolute before:w-8 before:h-8 before:bg-[url('/symposium-nextjs/images/footer/top-arrow.svg')] before:bg-no-repeat before:bg-cover"></div>
+            <div className="before:content-[''] before:absolute before:w-8 before:h-8 before:bg-[url('/images/footer/top-arrow.svg')] before:bg-no-repeat before:bg-cover"></div>
         </div>
     );
 }

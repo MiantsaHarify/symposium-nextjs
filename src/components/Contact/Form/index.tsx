@@ -81,7 +81,7 @@ const ContactForm = () => {
                         </div>
                         <div className="col-span-6">
                             <Image
-                                src="/symposium-nextjs/images/contact-page/contact.jpg"
+                                src="/images/contact-page/contact.jpg"
                                 alt="Contact"
                                 width={1300}
                                 height={0}

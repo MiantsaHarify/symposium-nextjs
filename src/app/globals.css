@@ -39,7 +39,7 @@ body {
     @apply w-full block max-w-1200 m-auto py-0 px-7;
   }
   select {
-    @apply appearance-none bg-[url('/symposium-nextjs/images/contact-page/dropdown.svg')] bg-no-repeat bg-[90%_50%];
+    @apply appearance-none bg-[url('/images/contact-page/dropdown.svg')] bg-no-repeat bg-[90%_50%];
   }
   /* Primary Button Hover */
   .btn {

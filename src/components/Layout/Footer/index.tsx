@@ -10,7 +10,7 @@ const Footer: FC = () => {
                     <div>
                         <Link href="/">
                             <Image
-                                src="/symposium-nextjs/images/footer/footer-logo-white.svg"
+                                src="/images/footer/footer-logo-white.svg"
                                 alt="logo"
                                 width={0}
                                 height={0}

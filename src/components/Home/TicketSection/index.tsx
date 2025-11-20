@@ -11,7 +11,7 @@ const TicketSection = () => {
                         <div className="flex flex-wrap items-center justify-between md:p-20 p-5">
                             <div className="md:w-2/2 w-full absolute top-0 -left-1 md:block hidden">
                                 <Image
-                                    src="/symposium-nextjs/images/ticket-section/ticket.png"
+                                    src="/images/ticket-section/ticket.png"
                                     alt="hero"
                                     width={0}
                                     height={0}

@@ -14,7 +14,7 @@ function ensureDir(dir) {
 }
 
 function transformContent(content) {
-  // Replace absolute root paths like "/_next/..." or "/symposium-nextjs/images/..." or "/favicon.ico"
+  // Replace absolute root paths like "/_next/..." or "/images/..." or "/favicon.ico"
   // but do NOT touch protocol-relative or absolute URLs (http://, https://, //)
   // Replace occurrences that follow a quote or ( or whitespace.
   return content.replace(/(["'\(])\/(?!\/|http|https|#)/g, '$1./');

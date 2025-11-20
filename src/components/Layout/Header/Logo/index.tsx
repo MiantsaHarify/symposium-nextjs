@@ -6,7 +6,7 @@ const Logo: React.FC = () => {
     return (
         <Link href="/">
             <Image
-                src="/symposium-nextjs/images/logo/logo.svg"
+                src="/images/logo/logo.svg"
                 alt="logo"
                 width={160}
                 height={50}
@@ -15,7 +15,7 @@ const Logo: React.FC = () => {
                 className='dark:hidden'
             />
             <Image
-                src="/symposium-nextjs/images/footer/footer-logo-white.svg"
+                src="/images/footer/footer-logo-white.svg"
                 alt="logo"
                 width={160}
                 height={50}

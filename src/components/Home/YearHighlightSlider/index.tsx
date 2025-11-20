@@ -49,7 +49,7 @@ const YearHighlightSlider = () => {
             <Slider {...settings}>
                 <div className="mt-14 relative">
                     <Image
-                        src="/symposium-nextjs/images/highlight/slide-1.png"
+                        src="/images/highlight/slide-1.png"
                         alt="Product"
                         width={0}
                         height={0}
@@ -83,7 +83,7 @@ const YearHighlightSlider = () => {
                 </div>
                 <div className="mt-14 relative">
                     <Image
-                        src="/symposium-nextjs/images/highlight/slide-1.png"
+                        src="/images/highlight/slide-1.png"
                         alt="Product"
                         width={0}
                         height={0}
@@ -117,7 +117,7 @@ const YearHighlightSlider = () => {
                 </div>
                 <div className="mt-14 relative">
                     <Image
-                        src="/symposium-nextjs/images/highlight/slide-1.png"
+                        src="/images/highlight/slide-1.png"
                         alt="Product"
                         width={0}
                         height={0}
@@ -158,7 +158,7 @@ const YearHighlightSlider = () => {
                             <h3 className="text-secondary dark:text-white">Video</h3>
                             <button
                                 onClick={closeModal}
-                                className="bg-[url('/symposium-nextjs/images/highlight/closed.svg')] bg-no-repeat bg-contain w-5 h-5 inline-block dark:invert"
+                                className="bg-[url('/images/highlight/closed.svg')] bg-no-repeat bg-contain w-5 h-5 inline-block dark:invert"
                             ></button>
                         </div>
                         <iframe
