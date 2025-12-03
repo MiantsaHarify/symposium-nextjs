@@ -1,9 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { BookOpen, Plus } from "lucide-react";
 
 const Hero = () => {
     return (
-        <section className="dark:bg-darkmode">
+        <section className="dark:bg-darkmode pt-20 md:pt-28">
             <div className="container">
                 <div className="grid lg:grid-cols-12 grid-cols-1 items-center gap-30">
                     <div className="col-span-6">
@@ -13,7 +16,7 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="relative z-0  inline-block text-primary text-lg font-bold before:absolute before:content-[''] before:bg-primary/20  before:w-full before:h-2 before:-z-1 dark:before:-z-1 before:bottom-0"
                         >
-                            Starts on 16 June 2024
+                            Join a community of leader
                         </p>
                         <h1
                             className="py-4"
@@ -21,7 +24,7 @@ const Hero = () => {
                             data-aos-delay="300"
                             data-aos-duration="1000"
                         >
-                            User Experience Conference
+                            Learn english anywhere, anytime.
                         </h1>
                         <p
                             data-aos="fade-up"
@@ -29,10 +32,9 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="text-xl text-SlateBlueText dark:text-opacity-80 font-normal md:pb-14 pb-6"
                         >
-                            We offer you a new generation of task and project management
-                            system. Plan, manage and track.
+                            Our step-by-step courses, practical exercises, and real-life examples make learning simple, effective, and enjoyable.
                         </p>
-                        <div className="flex items-center md:justify-normal lg:justify-center justify-start flex-wrap gap-4">
+                        <div className="flex items-center md:justify-normal justify-start flex-wrap gap-4">
                             <Link
                                 href="/"
                                 data-aos="fade-up"
@@ -41,8 +43,8 @@ const Hero = () => {
                                 className="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden"
                             >
                                 <span className="!flex !items-center gap-14">
-                                    <i className="bg-[url('/images/hero/tickets.svg')] bg-no-repeat bg-contain w-6 h-6 inline-block"></i>
-                                    Buy access pass
+                                    <BookOpen className="w-6 h-6" />
+                                    Begin Course
                                 </span>
                             </Link>
                             <Link
@@ -53,8 +55,8 @@ const Hero = () => {
                                 className="btn_outline btn-2 hover-outline-slide-down group"
                             >
                                 <span className="!flex !items-center gap-14">
-                                    <i className="bg-[url('/images/hero/calander.svg')] bg-no-repeat bg-contain w-6 h-6 inline-block group-hover:bg-[url('/images/hero/calander-hover-white.svg')]"></i>
-                                    Add to calendar
+                                    <Plus className="w-6 h-6 group-hover:text-white" />
+                                    See all courses
                                 </span>
                             </Link>
                         </div>
