@@ -78,7 +78,7 @@ const Header: React.FC = () => {
     <>
     <div className="relative"></div>
     <header
-      className={`fixed h-24 top-0 py-1 z-50 w-full bg-transparent transition-all  ${
+      className={`fixed h-29 top-0 py-1 z-50 w-full bg-transparent transition-all  ${
         sticky ? "shadow-lg dark:shadow-darkmd bg-white dark:bg-secondary" : "shadow-none"
       }`}
     >
