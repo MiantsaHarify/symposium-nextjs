@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link";
-import ThumbnailCarousel from "../ThumbnailCarousel";
+import CourseCard from "@/components/Cards/CourseCard";
+import CourseButton from "@/components/Buttons/CourseButton";
 
 const Conferences = () => {
   return (
@@ -9,30 +9,28 @@ const Conferences = () => {
         <div className="container">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center lg:gap-24 gap-5">
             <div
-              data-aos="fade-right"
-              data-aos-delay="200"
-              data-aos-duration="1000"
-            >
-              <ThumbnailCarousel />
-            </div>
-            <div
               className="md:pt-0 pt-6"
               data-aos="fade-left"
               data-aos-delay="200"
               data-aos-duration="1000"
             >
-              <h2>Best Online and Offline Conferences</h2>
-              <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80 max-w-506 md:pt-9 pt-5 md:pb-14 pb-6">
-                Sometimes by accident, sometimes chunks as necessary making this
-                the first true generator on the Internet. recently with desktop
-                publishing software like Aldus PageMaker
-              </p>
-              <Link
-                href="/"
-                className="btn_outline btn-2 hover-outline-slide-down"
-              >
-                <span>Upcoming conferences</span>
-              </Link>
+              <div className="flex items-center md:justify-normal justify-start flex-wrap gap-4">
+                <h2>Courses designed for every level</h2>
+                
+                <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80 max-w-500 md:pt-2 pt-5 md:pb-14 pb-6">
+                  Our courses. From beginner to advanced, learn english your way.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-80 gap-y-6">
+                <CourseCard />
+                <CourseCard />
+                <CourseCard />
+                <CourseCard />
+                <CourseCard />
+                <CourseCard />
+                <CourseCard />
+              </div>
             </div>
           </div>
         </div>

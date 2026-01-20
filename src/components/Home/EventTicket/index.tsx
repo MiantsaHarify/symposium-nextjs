@@ -7,14 +7,10 @@ const EventTicket = () => {
         <>
             <section className="dark:bg-darkmode pt-0">
                 <div className="container">
-                    <div className="text-center md:pb-20 pb-8">
-                        <h2 className="pb-8" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">The Biggest Digital Event in 2024</h2>
+                    <div className="text-left md:pb-20 pb-8">
+                        <h2 className="pb-8" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Why choose our online course ?</h2>
                         <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="text-SlateBlueText dark:text-opacity-80 text-lg font-normal max-w-920 m-auto">
-                            Sometimes by accident, sometimes chunks as necessary making this
-                            the first true generator on the Internet. recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages.
+                            Because learning English should be simple, flexible, and effective.
                         </p>
                     </div>
                     <div className="flex flex-wrap items-stretch" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">

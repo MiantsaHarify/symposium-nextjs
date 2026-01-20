@@ -10,7 +10,7 @@ const Footer: FC = () => {
                     <div>
                         <Link href="/">
                             <Image
-                                src="/images/footer/footer-logo-white.svg"
+                                src="/images/logo/logo.svg"
                                 alt="logo"
                                 width={0}
                                 height={0}
@@ -121,24 +121,10 @@ const Footer: FC = () => {
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center py-8">
                     <div className="col-span-5">
                         <p className="text-base font-normal text-PaleCerulean">
-                            © All rights reserved. Made by{" "}
-                            <Link
-                                href="https://nextjs-templates.com/"
-                                className="hover:text-white"
-                                target="_blank"
-                            >
-                                NextJs Templates
-                            </Link>
+                            MTTC Madagascar
                         </p>
                         <p className="text-base font-normal text-PaleCerulean">
-                            Distributed by {" "}
-                            <Link
-                                href="https://themewagon.com/"
-                                className="hover:text-white"
-                                target="_blank"
-                            >
-                                ThemeWagon
-                            </Link>
+                            Join a community of leader
                         </p>
                     </div>
                     <div className="col-span-7 grid md:grid-cols-12 grid-cols-1 items-center gap-6">
