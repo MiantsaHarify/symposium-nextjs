@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+import ContactButton from "@/components/Buttons/ContactButton";
 
 const TicketSection = () => {
     return (
@@ -23,16 +23,10 @@ const TicketSection = () => {
                             </div>
                             <div className="md:w-2/5 w-full ml-auto lg:text-start text-center">
                                 <p className="sm:text-4xl text-[28px] leading-[2.25rem] font-bold text-white lg:max-w-364 max-w-full pb-9">
-                                    Become a Part of the Digital Evolution!
+                                    Let's talk, Reach out anytime.
                                 </p>
-                                <Link
-                                    href="/"
-                                    className="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden before:bg-ElectricAqua"
-                                >
-                                    <span className="sm:!px-20 px-10 !border-ElectricAqua !text-white">
-                                        Book ticket
-                                    </span>
-                                </Link>
+                                <p className="pb-8">Have questions or need support? Our team is here to help you anytime.</p>
+                                <ContactButton />
                             </div>
                         </div>
                     </div>

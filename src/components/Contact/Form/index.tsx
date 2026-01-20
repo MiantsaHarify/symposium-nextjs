@@ -10,7 +10,7 @@ const ContactForm = () => {
                 <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md">
                     <div className="grid md:grid-cols-12 grid-cols-1 gap-8">
                         <div className="col-span-6">
-                            <h2 className="max-w-72 text-[40px] leading-[3.4rem] font-bold mb-9 text-secondary">Get Online Consultation</h2>
+                            <h2 className="max-w-72 text-[40px] leading-[3.4rem] font-bold mb-9 text-secondary">Contact us if you need information !</h2>
                             <form className="flex flex-wrap w-full m-auto justify-between">
                                 <div className="sm:flex gap-3 w-full">
                                     <div className="mx-0 my-2.5 flex-1">

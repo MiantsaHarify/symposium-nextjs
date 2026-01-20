@@ -1,14 +1,9 @@
 "use client";
 import { signIn, useSession } from "@/lib/authMock";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
-import SocialSignIn from "../SocialSignIn";
-import Logo from "@/components/Layout/Header/Logo"
-import Loader from "@/components/Common/Loader";
-
-import toast, { Toaster } from 'react-hot-toast';
 import AuthDialogContext from "@/app/context/AuthDialogContext";
+import { User } from "lucide-react";
 
 
 const Signin = ({ signInOpen }: { signInOpen?: any }) => {
@@ -27,7 +22,6 @@ const Signin = ({ signInOpen }: { signInOpen?: any }) => {
             password,
         });
         if (result?.error) {
-            // Handle successful sign-in
             setError(result.error);
         }
         if (result?.status === 200) {
@@ -48,19 +42,12 @@ const Signin = ({ signInOpen }: { signInOpen?: any }) => {
 
     return (
         <>
-            <div className="mb-10 text-center mx-auto inline-block max-w-[160px]">
-                <Logo />
+            <div className="mb-10 text-left mx-auto inline-block max-w-[160px]">
+                <h1 className="text-2xl font-semibold flex items-center gap-2">
+                    <User className="w-6 h-6 sm:w-7 sm:h-7" />
+                    Sign In
+                </h1>
             </div>
-
-            <SocialSignIn />
-
-            <span className="z-1 relative my-8 block text-center">
-                <span className="-z-1 absolute left-0 top-1/2 block h-px w-full bg-border dark:bg-dark_border"></span>
-                <span className="text-body-secondary relative z-10 inline-block bg-white dark:bg-darklight px-3 text-base dark:bg-dark">
-                    OR
-                </span>
-                <Toaster />
-            </span>
 
             <form onSubmit={handleSubmit}>
                 <div className="mb-[22px]">
@@ -89,7 +76,6 @@ const Signin = ({ signInOpen }: { signInOpen?: any }) => {
                         className="flex w-full cursor-pointer items-center justify-center rounded-md border border-primary bg-primary hover:bg-darkprimary dark:hover:!bg-darkprimary px-5 py-3 text-base text-white transition duration-300 ease-in-out "
                     >
                         Sign In
-                        {/* {loading && <Loader />} */}
                     </button>
 
                 </div>
@@ -101,12 +87,6 @@ const Signin = ({ signInOpen }: { signInOpen?: any }) => {
             >
                 Forget Password?
             </Link>
-            <p className="text-body-secondary text-base">
-                Not a member yet?{" "}
-                <Link href="/" className="text-primary hover:underline">
-                    Sign Up
-                </Link>
-            </p>
         </>
     );
 };

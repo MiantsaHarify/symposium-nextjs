@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { BookOpen, Plus } from "lucide-react";
+import CourseButton from "@/components/Buttons/CourseButton";
+import AllCourseButton from "@/components/Buttons/AllCourseButton";
 
 const Hero = () => {
     return (
@@ -16,7 +16,7 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="relative z-0  inline-block text-primary text-lg font-bold before:absolute before:content-[''] before:bg-primary/20  before:w-full before:h-2 before:-z-1 dark:before:-z-1 before:bottom-0"
                         >
-                            Join a community of leader
+                            Join a community of leaders, join MTTC Madagascar
                         </p>
                         <h1
                             className="py-4"
@@ -32,33 +32,11 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="text-xl text-SlateBlueText dark:text-opacity-80 font-normal md:pb-14 pb-6"
                         >
-                            Our step-by-step courses, practical exercises, and real-life examples make learning simple, effective, and enjoyable.
+                            Our step-by-step courses, practical exercises make learning simple and enjoyable.
                         </p>
                         <div className="flex items-center md:justify-normal justify-start flex-wrap gap-4">
-                            <Link
-                                href="/"
-                                data-aos="fade-up"
-                                data-aos-delay="500"
-                                data-aos-duration="1000"
-                                className="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden"
-                            >
-                                <span className="!flex !items-center gap-14">
-                                    <BookOpen className="w-6 h-6" />
-                                    Begin Course
-                                </span>
-                            </Link>
-                            <Link
-                                href="/"
-                                data-aos="fade-up"
-                                data-aos-delay="600"
-                                data-aos-duration="1000"
-                                className="btn_outline btn-2 hover-outline-slide-down group"
-                            >
-                                <span className="!flex !items-center gap-14">
-                                    <Plus className="w-6 h-6 group-hover:text-white" />
-                                    See all courses
-                                </span>
-                            </Link>
+                            <CourseButton />
+                            <AllCourseButton />
                         </div>
                     </div>
                     <div

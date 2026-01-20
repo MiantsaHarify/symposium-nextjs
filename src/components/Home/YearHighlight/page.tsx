@@ -3,8 +3,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const Highlight = () => {
@@ -55,32 +53,16 @@ const Highlight = () => {
                             data-aos-delay="200"
                             data-aos-duration="1000"
                         >
-                            <h2>Previous Year Highlights</h2>
+                            <h2>About Our Training School</h2>
                             <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80 max-w-404 pt-7 pb-11">
-                                Many variations of passages of Lorem Ipsum available but the
-                                majority have suffered alteration in some form injected humour,
-                                or randomised words
+                                Our training school is committed to providing high-quality, 
+                                accessible, and career-focused education for learners of all backgrounds. 
+                                <br />
+
+                                Built on the belief that practical skills create real opportunities, we 
+                                design programs that align with industry needs and equip students with 
+                                the knowledge and confidence to succeed.
                             </p>
-                            <div className="flex items-center flex-wrap gap-30">
-                                <div className="text-start sm:pb-0 pb-5">
-                                    <h2 className="text-primary">10k+</h2>
-                                    <p className="text-lg font-medium text-secondary dark:text-darktext">
-                                        Ticket confirmed
-                                    </p>
-                                </div>
-                                <div className="text-start sm:pb-0 pb-5">
-                                    <h2 className="text-primary">16</h2>
-                                    <p className="text-lg font-medium text-secondary dark:text-darktext">
-                                        Partners
-                                    </p>
-                                </div>
-                                <div className="text-start sm:pb-0 pb-5">
-                                    <h2 className="text-primary">150k+</h2>
-                                    <p className="text-lg font-medium text-secondary dark:text-darktext">
-                                        Participants
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                         <div
                             className="col-span-7 year_slider px-7"
