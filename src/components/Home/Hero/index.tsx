@@ -71,13 +71,12 @@ const Hero = () => {
                             <Image
                                 src="/images/hero/john.png"
                                 alt="hero"
-                                width={0}
-                                height={0}
+                                width={500}
+                                height={600}
                                 quality={100}
-                                layout="responsive"
-                                sizes="100vh"
-                                className="w-full h-full"
+                                className="w-full h-auto"
                             />
+
                             <div className="bg-yellow-300 rounded-22 shadow-hero-box py-4 px-5 absolute top-16 -left-20">
                                 <p className="text-lg font-bold text-yellow-900">John Karter</p>
                                 <p className="text-base font-medium text-yellow-900 text-center">
@@ -87,15 +86,14 @@ const Hero = () => {
                         </div>
                         <div className="bg-primary relative rounded-tr-166 rounded-bl-166 w-full mt-32">
                             <Image
-                                src="/images/hero/maria.png"
+                                src="/images/hero/john.png"
                                 alt="hero"
-                                width={0}
-                                height={0}
+                                width={500}
+                                height={600}
                                 quality={100}
-                                layout="responsive"
-                                sizes="100vh"
-                                className="w-full h-full"
+                                className="w-full h-auto"
                             />
+
                             <div className="bg-Aquamarine rounded-22 shadow-hero-box py-4 px-5 absolute top-24 -right-20 xl:inline-block hidden">
                                 <p className="text-lg font-bold text-green-800">Mariya John</p>
                                 <p className="text-base font-medium text-green-800 text-center">
