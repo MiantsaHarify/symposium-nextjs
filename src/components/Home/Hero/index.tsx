@@ -16,7 +16,7 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="relative z-0  inline-block text-primary text-lg font-bold before:absolute before:content-[''] before:bg-primary/20  before:w-full before:h-2 before:-z-1 dark:before:-z-1 before:bottom-0"
                         >
-                            Join a community of leader
+                            Join a community of leaders, join MTTC Madagascar.
                         </p>
                         <h1
                             className="py-4"
